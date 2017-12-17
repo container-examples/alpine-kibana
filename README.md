@@ -8,4 +8,4 @@ Kibana : `6.0.0`
 ## Commands
 
 Build : `docker build -t perriea/alpine-kibana .`   
-Run : `docker run -d -p 24224:24224 -p 24224:24224/udp perriea/alpine-kibana`
+Run : `docker run -d -p 5601:5601 perriea/alpine-kibana`
